@@ -12,7 +12,7 @@ public class MyProducer {
         properties.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer");
 
         //Sending data to kafka - on specipic topic
-        ProducerRecord producerRecord = new ProducerRecord("channel","name","mylearning");
+        ProducerRecord producerRecord = new ProducerRecord("mytopic","name","mylearning");
 
         KafkaProducer kafkaProducer = new KafkaProducer(properties);
 

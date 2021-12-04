@@ -18,3 +18,7 @@ create topic
 
 see created topics - list
 ```./bin/kafka-topics.sh --list --zookeeper zookeeper:2181```
+
+see comsumer logs printing..
+```
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic mytopic --from-beginning
