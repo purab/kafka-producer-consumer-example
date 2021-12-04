@@ -1,7 +1,9 @@
 public class Runner {
     public static void main(String[] args) {
-        MyProducer myProducer = new MyProducer();
 
+        ProducerTest producerTest = new ProducerTest();
+        MyProducer myProducer = new MyProducer();
+        MyConsumer myConsumer = new MyConsumer();
 
     }
 }

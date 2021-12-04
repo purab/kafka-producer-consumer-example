@@ -9,7 +9,7 @@ stop docker images
 
 ```docker exec -it kafka /bin/sh```
 
-```cd /opt/kafka_2/```
+```cd /opt/kafka/```
 
 create topic
 
